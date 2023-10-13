@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  github-cron:
+    build: .
+    container_name: github-cron
+    

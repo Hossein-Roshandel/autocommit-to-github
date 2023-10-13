@@ -1,0 +1,4 @@
+# START CRON JOB
+* * * * * /usr/local/bin/python /app/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+#0,30 9-17 * * 1-6 /usr/local/bin/python /app/main.py > /proc/1/fd/1 2>/proc/1/fd/2
+# END CRON JOB
