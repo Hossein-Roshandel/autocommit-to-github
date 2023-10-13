@@ -28,5 +28,5 @@ TESTS
   - [x] Check the pull request at {datetime.now()}
   - [x] Set everything on a cron job :)
 '''
-pr = repo.create_pull(base="master", head="develop", title="Good job! Keep it up!", body=pull_request_body)
+pr = repo.create_pull(base="main", head="autocommits", title="Good job! Keep it up!", body=pull_request_body)
 
